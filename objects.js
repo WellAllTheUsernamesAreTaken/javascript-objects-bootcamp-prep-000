@@ -1,6 +1,6 @@
 var playlist = { BrunoMars: "Gernade", EdSheren: "Perfect"}
 
-function updatePlaylist() {
+function updatePlaylistplaylist, artistName, songTitle {
   
 }
 function removeFromPlaylist() {
