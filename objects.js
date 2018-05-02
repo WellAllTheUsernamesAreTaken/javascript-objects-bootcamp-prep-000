@@ -1,4 +1,4 @@
-//var playlist = { BrunoMars: "Gernade", EdSheren: "Perfect"}
+var playlist = { BrunoMars: "Gernade", EdSheren: "Perfect"}
 
 function updatePlaylist() {
   
