@@ -5,7 +5,7 @@ function updatePlaylist(play, artistName, songTitle) {
   var u = {};
   update = Object.assign({}, play, { ['artistName']: songTitle});
   return function UpdateObject(update) {
-    return Object.assign({}, playlist, update);
+    return Object.assign({}, playlist, u);
   };
   //return Object.assign({}, Update, playlist)
   //playlist[artistName] = songTitle;
